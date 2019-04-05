@@ -16,4 +16,27 @@ if(x + z === 110){
 }else{
     document.getElementById('test').innerText = 'please be sure about what you type';
 }
+
+let myArray = [firstName, lastName, x, z, y];
+console.log('length of array is ' +myArray.length);
+
+console.log(myArray.slice(0, 4));
+document.write(myArray.splice(0,3,4));
+ let r = {"lastName": 'Asfour', 'age': '30' };
+ console.log(r);
+
+let dwarv = ['bifur', 'bofur', 'damin', 'adny', 'nore', 'iron', 'wood','white'];
+let nameLength = dwarv.map(function(item, index, array){
+    return item;
+
+});
+
+
+
+console.log(nameLength);
+
+
+
+
+
  
